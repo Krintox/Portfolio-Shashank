@@ -4,6 +4,11 @@
     /* border: 1px solid red; */
     font-family: Poppins;
     color: white;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
 }
 
 body {
@@ -287,8 +292,18 @@ ul li{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    background-image: url("../Images/back1.jpg");
+    background-image: url("../Images/vit.png");
     background-size: cover;
+    margin: 2rem 0;
+}
+.img-photo-school {
+    border: 1px white solid;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-image: url("../Images/mvn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 2rem 0;
 }
 
@@ -351,7 +366,7 @@ ul li{
 .percentage-count-college {
     height: 1rem;
     background-color: rgb(184, 184, 12);
-    width: 91%;
+    width: 81%;
     /* border: 1px solid white; */
     border-radius: 5px;
 }
@@ -491,7 +506,7 @@ ul li{
     background-size: cover;
 }
 .eight {
-    background-image: url("../Images/back1.jpg");
+    background-image: url("../Images/nextjs.png");
     background-size: cover;
 }
 .nine {
